@@ -1,0 +1,180 @@
+html {
+    height: 100%;
+}
+
+header {
+    background-image: linear-gradient(to bottom right,  rgb(235, 219, 0) 35%,  rgb(136, 128, 44));
+    padding: 0;
+    margin: 0;
+    border-bottom: double 7px black;
+    box-shadow: 0px 10px 30px rgb(0,0,0,.2);
+}
+
+body {
+    min-height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to bottom, white, white 50%, lightgray);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex:1;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+}
+
+div {
+    flex: 1;
+    min-height:30px;
+}
+
+article {
+    background-image:linear-gradient(to bottom, rgb(53, 53, 53, .2) 20%, rgb(0,0,0,.2));
+    margin: 0 auto;
+    width: 31%;
+    box-shadow: 0px 5px 5px rgb(0,0,0,.1);
+    border: black 2px double;
+}
+
+h1, h2 {
+    text-align: center;
+    font-family: "Barriecito", cursive;
+    font-size: 3em;
+    text-decoration-line: underline;
+    margin: 0 auto;
+    padding-top: 20px;
+    color: rgb(53, 53, 53);
+}
+
+h2 {
+    font-size: 3.5em;
+    text-decoration-line: none;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    color: black;
+}
+
+img {
+    border: 7px double black;
+    border-radius: 200px;
+    margin: 40px auto;
+    display: block; 
+    box-shadow: 5px 5px 5px rgb(0,0,0,.1);
+}
+
+h3, th  {
+    font-variant: small-caps;
+    font-family: 'Sue Ellen Francisco', cursive;
+    font-size: 1.8em;
+    color: rgb(235, 219, 0);
+    background-image:linear-gradient(to bottom, rgb(53, 53, 53) 20%, black);
+    width: 150px;
+    text-align: right;
+    margin: 0;
+    padding: 0 2%;
+    border-bottom: 7px double white;
+    border-top: 7px double white;
+    box-shadow: 0px 10px 30px rgb(0,0,0,.1);
+}
+
+ul {
+    margin: 0;
+    display:flex;
+    padding: 40px;
+}
+
+li, p, td {
+    display: inline;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: rgb(223, 70, 0);
+    font-family: 'Sue Ellen Francisco', cursive;
+    text-shadow: 2px 2px 2px rgb(0,0,0,.1);
+}
+
+p {
+    text-align: justify;
+    padding: 0 20px;
+    font-weight: 900;
+    display: block;
+}
+
+footer {
+    border-top: 7px double rgb(235, 219, 0);
+    background-image:linear-gradient(to bottom, rgb(53, 53, 53) 20%, black);
+    padding: 20px 0;
+    display: flex;
+    flex-direction: row;
+}
+
+a {
+    color: white;
+    text-decoration-line: none;
+    font-family: 'Sue Ellen Francisco', cursive;
+    font-variant: small-caps;
+    font-size: 1.8em;
+    padding: 0 10px;
+}
+
+a:hover {
+    text-decoration-line: underline;
+}
+
+.color {
+    color: rgb(223, 70, 0);
+}
+
+.rightside {
+    border-right: 7px double white;
+}
+
+.leftside {
+    border-left: 7px double white;
+}
+
+
+.article {
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+  
+}
+
+iframe {
+    margin: 0 auto;
+    clear: both;
+    border:  double 7px black;
+}
+
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    text-align: center;
+}
+
+th {
+    border-right: solid black 2px;
+    border-left: solid black 2px;
+}
+td {
+    border: black solid 2px;
+    border-top: none;
+    display: table-cell;
+    box-shadow: 0px 5px 5px rgb(0,0,0,.1);
+    background-image:linear-gradient(to bottom, rgb(53, 53, 53, .2) 20%, rgb(0,0,0,.2));
+    padding: 6px;
+}
