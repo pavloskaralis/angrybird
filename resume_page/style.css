@@ -89,7 +89,6 @@ h3, th  {
 ul {
     margin: 0;
     display:flex;
-    padding: 40px;
 }
 
 li, p, td {
@@ -135,11 +134,11 @@ a:hover {
 }
 
 .rightside {
-    border-right: 7px double white;
+    border-right: solid black 2px;
 }
 
 .leftside {
-    border-left: 7px double white;
+    border-left: solid black 2px;
 }
 
 
@@ -153,7 +152,10 @@ a:hover {
 iframe {
     margin: 0 auto;
     clear: both;
-    border:  double 7px black;
+    border: solid 2px black;
+    border-top: none;
+    box-shadow: 0px 5px 5px rgb(0,0,0,.1);
+
 }
 
 table {
@@ -177,4 +179,13 @@ td {
     box-shadow: 0px 5px 5px rgb(0,0,0,.1);
     background-image:linear-gradient(to bottom, rgb(53, 53, 53, .2) 20%, rgb(0,0,0,.2));
     padding: 6px;
+}
+
+.videos {
+    margin: 0 auto;
+    width: 560px;
+    padding: 0;
+    text-align: center;
+    border-right: solid 2px black;
+    border-left: solid 2px black;
 }
